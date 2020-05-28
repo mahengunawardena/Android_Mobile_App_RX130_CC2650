@@ -89,7 +89,8 @@ public class MainActivity extends AppCompatActivity {
     private static final int MY_PERMISSIONS_REQUEST_ACCESS_COARSE = 1;
     private final static int STW_PERMISSIONS_REQUEST_ENABLE_BT = 2;
 
-    @Override  protected void onCreate(Bundle savedInstanceState) {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(capsense.application.rx130_cc2650.R.layout.activity_main);
 
