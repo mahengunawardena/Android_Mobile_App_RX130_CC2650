@@ -89,8 +89,7 @@ public class MainActivity extends AppCompatActivity {
     private static final int MY_PERMISSIONS_REQUEST_ACCESS_COARSE = 1;
     private final static int STW_PERMISSIONS_REQUEST_ENABLE_BT = 2;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    @Override  protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(capsense.application.rx130_cc2650.R.layout.activity_main);
 
@@ -100,6 +99,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(capsense.application.rx130_cc2650.R.id.toolbar);
         toolbar.setTitle(R.string.app_label);
         setSupportActionBar(toolbar);
+
 
         // Use this check to determine whether BLE is supported on the device. Then
         // you can selectively disable BLE-related features.

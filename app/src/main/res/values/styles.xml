@@ -7,7 +7,10 @@
 
     <!-- Customize your theme here. -->
     <style name="CustomerToolbarStyle" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="android:background">@color/ic_launcher_background</item>
+        <!--item name="android:background">@color/ic_launcher_background</item -->
+        <!-- set background color to transperant -->
+        <!-- Stackoverflow question https://stackoverflow.com/questions/62056068/how-to-make-title-background-transparent-on-android-app -->
+        <item name="android:background">#00000000</item >
         <item name="android:title">@color/colorforeground</item>
     </style>
 
