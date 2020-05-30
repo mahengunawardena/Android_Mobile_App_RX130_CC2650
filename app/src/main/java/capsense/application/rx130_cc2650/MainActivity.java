@@ -284,6 +284,7 @@ public class MainActivity extends AppCompatActivity {
         mBLE_Scanner.stop();
         mScanning = false;
         mBLEDeviceListAdapter.setmScanning(mScanning);
+        invalidateOptionsMenu();
     }
 
     public void startscan() {
@@ -293,6 +294,7 @@ public class MainActivity extends AppCompatActivity {
         mBLE_Scanner.start();
         mScanning = true;
         mBLEDeviceListAdapter.setmScanning(mScanning);
+        invalidateOptionsMenu();
     }
 
 }
